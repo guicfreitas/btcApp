@@ -56,15 +56,55 @@
 		7978B07D278C72BF003CD8BE /* Bitnance */ = {
 			isa = PBXGroup;
 			children = (
-				7978B07E278C72BF003CD8BE /* AppDelegate.swift */,
-				7978B080278C72BF003CD8BE /* SceneDelegate.swift */,
-				7978B082278C72BF003CD8BE /* ViewController.swift */,
+				7978B096278C73D9003CD8BE /* API Services */,
+				7978B095278C73C9003CD8BE /* Controllers */,
+				7978B094278C73C2003CD8BE /* Commom */,
+				7978B093278C73A8003CD8BE /* ViewModels */,
+				7978B092278C7398003CD8BE /* Models */,
 				7978B084278C72BF003CD8BE /* Main.storyboard */,
 				7978B087278C72C1003CD8BE /* Assets.xcassets */,
 				7978B089278C72C1003CD8BE /* LaunchScreen.storyboard */,
 				7978B08C278C72C1003CD8BE /* Info.plist */,
 			);
 			path = Bitnance;
+			sourceTree = "<group>";
+		};
+		7978B092278C7398003CD8BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7978B093278C73A8003CD8BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7978B094278C73C2003CD8BE /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				7978B080278C72BF003CD8BE /* SceneDelegate.swift */,
+				7978B07E278C72BF003CD8BE /* AppDelegate.swift */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		7978B095278C73C9003CD8BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7978B082278C72BF003CD8BE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7978B096278C73D9003CD8BE /* API Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Services";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
